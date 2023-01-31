@@ -1,16 +1,10 @@
-# example
+# Flutter location_provider example
 
-A new Flutter project.
+An example to how to implement the location provider package in your app to fetch the address and latlng and viceversa.
 
-## Getting Started
+## Screen Recording
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://user-images.githubusercontent.com/33664603/215685291-68267f4b-52f6-4fc6-a44c-c061e0a12e73.mov
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
