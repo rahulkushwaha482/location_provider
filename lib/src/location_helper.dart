@@ -11,6 +11,7 @@ class LocationHelper {
   static Future<String> getSubLocality(double lat, double lng) async {
     List<Placemark> placemarks = await placemarkFromCoordinates(lat, lng);
     final subLocality = '${placemarks[0].subLocality}';
+
     return subLocality;
   }
 
@@ -28,15 +29,13 @@ class LocationHelper {
 
   static Future<String> getLatitudeFromAddress(String address) async {
     List<Location> locations = await locationFromAddress(address);
-    String latlong =
-        '${locations.first.latitude}';
-    return latlong;
+    String latLong = '${locations.first.latitude}';
+    return latLong;
   }
 
   static Future<String> getLongitudeFromAddress(String address) async {
     List<Location> locations = await locationFromAddress(address);
-    String latlong =
-        '${locations.first.longitude}';
-    return latlong;
+    String latLong = '${locations.first.longitude}';
+    return latLong;
   }
 }
